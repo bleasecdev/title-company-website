@@ -29,6 +29,16 @@ p {
     background-color: #8F1F43 ! important;
     border-color: #DB5C85;
     color: #fff;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+ a.btn {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.btn-xl {
+  font-size: 24px !important; /* Adjust the font size as needed */
+  padding: 15px 30px !important; /* Adjust the padding as needed */
 }
 
 .navbar-light .navbar-nav .nav-link{
