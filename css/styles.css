@@ -1,12 +1,12 @@
 h1 {
-    font-family: 'Bodoni Moda', serif;
+    font-family: 'Made Sunflower', sans-serif;
 }
 
 h2 {
     font-family: 'Bodoni Moda', serif;
     font-size: 2.5rem !important;
     font-weight: bold !important;
-    color: #419C4A !important;
+    color: #a1a1a1;
 }
 
 h4 {
@@ -54,7 +54,7 @@ p {
 
 /* Additional styling for navbar links */
 .navbar-nav .nav-link {
-  font-family: 'Cormorant Garamond';
+  font-family: 'Luxia', sans-serif;
   font-size: 1.50rem;
   color: black;
 }
@@ -321,4 +321,12 @@ transform: translateX(0);
 .page-section {
     margin-top: 50px;
     padding-bottom: 30px;
+}
+
+#about{
+  background-color: #90610E;
+}
+
+#about h2{
+  color: #FFFFFF;
 }
