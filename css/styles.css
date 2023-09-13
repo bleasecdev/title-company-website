@@ -26,14 +26,15 @@ p {
 }
 
 .btn-primary {
-    background-color: #8F1F43 ! important;
-    border-color: #DB5C85;
+    background-color: #101010 ! important;
+    border-color: #90610E;
     color: #fff;
     font-family: 'Cormorant Garamond', serif;
 }
 
  a.btn {
   font-family: 'Cormorant Garamond', serif;
+  border-color: #D3AF3D;
 }
 
 .btn-xl {
@@ -42,28 +43,31 @@ p {
   margin-top: 20px;
 }
 
-.navbar-light .navbar-nav .nav-link{
-    color: #419C4A;
+.navbar {
+  background-color: #D3AF3D;
 }
 
-.navbar-light .navbar-brand{
-    color: #419C4A;
-    padding-left: 100px;
+.navbar-brand img {
+  width: 200px;
+  height: auto;
 }
 
-#navbarNav{
-    padding-right: 100px;
+/* Additional styling for navbar links */
+.navbar-nav .nav-link {
+  font-family: 'Cormorant Garamond';
+  font-size: 1.50rem;
+  color: black;
 }
 
-a.navbar-brand {
-    font-family: 'Bodoni Moda', serif;
-    font-weight: bold;
-    font-size: 2.5rem;
+/* Optional: Add padding to navbar brand */
+.navbar-brand {
+  padding-left: 20px; /* Adjust as needed */
 }
 
-a.nav-link{
-    font-family: 'Cormorant Garamond';
-    font-size: 1.50rem;
+/* Optional: Add padding to navbar container */
+.container-fluid {
+  padding-right: 20px; /* Adjust as needed */
+  padding-left: 20px;  /* Adjust as needed */
 }
 
 @media (max-width: 991.98px) {
