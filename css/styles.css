@@ -1,9 +1,9 @@
 h1 {
-    font-family: 'Made Sunflower', sans-serif;
+    font-family: 'Luxia', sans-serif;
 }
 
 h2 {
-    font-family: 'Bodoni Moda', serif;
+    font-family: 'Luxia', serif;
     font-size: 2.5rem !important;
     font-weight: bold !important;
     color: #a1a1a1;
@@ -14,9 +14,9 @@ h4 {
 }
 
 #services h4 {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'MADE Sunflower', serif;
     font-weight: bold;
-    color: #8F1F43 !important;
+    color: #90610E !important;
     font-size: 2.0rem !important;
 }
 
@@ -279,8 +279,8 @@ p {
 
 
   .color-change {
-    color:#8F1F43;
-    font-family: 'Bangers', cursive;
+    color:#101010;
+    font-family: 'Made Sunflower', sans-serif;
   }
 
   .mod {
@@ -325,6 +325,10 @@ transform: translateX(0);
 
 #about{
   background-color: #90610E;
+}
+
+#more {
+  background-color: #D3AF3D;
 }
 
 #about h2{
