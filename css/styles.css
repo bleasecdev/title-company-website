@@ -27,20 +27,24 @@ p {
 
 .btn-primary {
     background-color: #101010 ! important;
-    border-color: #90610E;
+    border-color: #D3AF3D;
     color: #fff;
     font-family: 'Cormorant Garamond', serif;
 }
 
  a.btn {
   font-family: 'Cormorant Garamond', serif;
-  border-color: #D3AF3D;
+  border-color: #D3AF3D ! important;
 }
 
 .btn-xl {
   font-size: 24px !important; /* Adjust the font size as needed */
   padding: 15px 30px !important; /* Adjust the padding as needed */
   margin-top: 20px;
+}
+
+btn{
+  border-color: #D3AF3D;
 }
 
 .navbar {
@@ -95,7 +99,7 @@ p {
 .masthead {
     position: relative;
     height: 100vh;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 
 .masthead-content .phone-number{
@@ -319,18 +323,34 @@ transform: translateX(0);
   
 
 .page-section {
-    margin-top: 50px;
-    padding-bottom: 30px;
+    margin-top: 0px;
+    padding-bottom: 50px;
 }
 
 #about{
   background-color: #90610E;
+  padding-top: 50px;
 }
+
 
 #more {
   background-color: #D3AF3D;
+  padding-top: 50px;
+  margin-bottom: 0px;
+}
+
+#services {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 50px;
 }
 
 #about h2{
   color: #FFFFFF;
+}
+
+#contact {
+  background-color: black;
+  margin-top: 0px;
+  padding-top: 50px;
 }
