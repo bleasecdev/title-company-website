@@ -20,7 +20,7 @@ h4 {
 #services h4 {
     font-family: 'MADE Sunflower', serif;
     font-weight: bold;
-    color: #90610E !important;
+    color: #D3AF3D !important;
     font-size: 2.0rem !important;
 }
 
@@ -51,8 +51,12 @@ btn{
   border-color: #D3AF3D;
 }
 
+#submitButton{
+  border-color: #D3AF3D;
+}
+
 .navbar {
-  background-color: #D3AF3D;
+  background-color: #101010;
 }
 
 .navbar-brand img {
@@ -64,7 +68,7 @@ btn{
 .navbar-nav .nav-link {
   font-family: 'Luxia', sans-serif;
   font-size: 1.50rem;
-  color: black;
+  color: #FFFFFF;
 }
 
 /* Optional: Add padding to navbar brand */
@@ -357,4 +361,31 @@ transform: translateX(0);
   background-color: black;
   margin-top: 0px;
   padding-top: 50px;
+}
+
+.text-gold {
+  color: #D3AF3D;
+}
+
+.iframe-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.iframe-item {
+  flex: 1;
+  padding:10px;
+}
+
+@media (max-width: 768px) {
+  .iframe-item {
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+
+.page-section p {
+  margin-left: 100px;
+  margin-right: 100px;
 }
