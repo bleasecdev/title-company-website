@@ -62,7 +62,7 @@ btn{
 }
 
 .navbar-brand img {
-  width: 200px;
+  width: 300px;
   height: auto;
 }
 
@@ -343,7 +343,7 @@ transform: translateX(0);
 }
 
 #about{
-  background-color: #90610E;
+  background-color: #101010;
   padding-top: 50px;
 }
 
