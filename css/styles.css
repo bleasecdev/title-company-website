@@ -8,14 +8,14 @@ h1 {
 }
 
 h2 {
-    font-family: 'Luxia', serif;
+    font-family: 'Luxia', sans-serif;
     font-size: 2.5rem !important;
     font-weight: bold !important;
     color: #a1a1a1;
 }
 
 h4 {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Luxia', sans-serif;
 }
 
 #services h4 {
@@ -26,7 +26,7 @@ h4 {
 }
 
 p {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Luxia', sans-serif;
     font-size: larger;
 }
 
@@ -34,11 +34,11 @@ p {
     background-color: #101010 ! important;
     border-color: #D3AF3D;
     color: #fff;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Luxia', sans-serif;
 }
 
  a.btn {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Luxia', sans-serif;
   border-color: #D3AF3D ! important;
 }
 
@@ -54,6 +54,7 @@ btn{
 
 #submitButton{
   border-color: #D3AF3D;
+  font-family: 'Luxia', sans-serif;
 }
 
 .navbar {
@@ -112,7 +113,7 @@ btn{
 }
 
 .masthead-content .phone-number{
-    font-style: 'Montserrat';
+    font-style: 'Luxia';
 }
   
 .masthead video {
@@ -131,7 +132,7 @@ btn{
     transform: translate(-50%, -50%);
     text-align: center;
     color: #fff;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Luxia',sans-serif;
 }
   
 .masthead .masthead-content h1 {
