@@ -66,6 +66,10 @@ btn{
   height: auto;
 }
 
+.navbar-toggler-icon{
+  background-color: #D3AF3D;
+}
+
 /* Additional styling for navbar links */
 .navbar-nav .nav-link {
   font-family: 'Luxia', sans-serif;
@@ -388,3 +392,11 @@ footer{
   padding-bottom: 5px;
 }
 
+.phone-button {
+  display: inline-block;
+  border: 1px solid #D3AF3D;
+  text-align: center;
+  line-height: 50px; /* Center the content vertically */
+  color: #FFFFFF;
+  text-decoration: none;
+}
