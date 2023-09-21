@@ -54,7 +54,7 @@
           <img src="your-fallback-image.jpg" alt="Fallback image description">
         </video>
         <div class="masthead-content">
-          <h1 class="slide-in-left">Front Porch Title Co.</h1>
+          <h1 class="slide-in-left title">Front Porch Title Co.</h1>
           <hr>
           <h2 class="slide-in-right sub-header">You're one step away.</h2>
           <a href="#about" class="btn btn-primary btn-xl slide-in-left">Find Out More</a>
@@ -99,7 +99,7 @@
             </div>
           </div>
           <div class="text-center">
-            <p><span class="color-change mod scroll-slide-left">We</span> keep our clients informed and empowered, ensuring that their transactions are handled with <span class="color-change mod scroll-slide-right">care</span> and close on schedule. Our team is all <span class="color-change mod scroll-slide-left">about</span> open lines of communication and with the ability to settle anywhere, at anytime, <span class="color-change mod scroll-slide-right">you</span> can have peace of mind knowing that convenience is never an issue.</p>
+            <p>We keep our clients informed and empowered, ensuring that their transactions are handled with care and close on schedule. Our team is all about open lines of communication and with the ability to settle anywhere, at anytime, you can have peace of mind knowing that convenience is never an issue.</p>
           </div>
         </div>
       </section>
@@ -120,7 +120,7 @@
                 </div>
                 
                 <div class="col-12 col-md-3 scroll-slide-right">
-                    <h4 class="my-3">Closing and Settlement</h4>
+                    <h4 class="my-3">Settlement Services</h4>
                 </div>
                 
                 <div class="col-12 col-md-3 scroll-slide-right">
@@ -217,7 +217,7 @@
                         <div class="d-grid">
                           <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Submit</button>
                         </div>
-                        <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
+                        <!-- <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div> -->
                       </form>
                       
                       <script>
@@ -232,19 +232,13 @@
                         form.addEventListener('input', checkValidity);
                       
                         function checkValidity() {
-                            // Check if all required fields have been filled in
-                          if (nameInput.checkValidity() && emailInput.checkValidity() && phoneInput.checkValidity() && messageInput.checkValidity()) {
-                              // Check if reCAPTCHA has been filled out
-                            const recaptchaInput = document.querySelector('.g-recaptcha-response');
-                            if (recaptchaInput.value) {
-                              submitButton.classList.remove('disabled'); // Enable submit button
-                            } else {
-                              submitButton.classList.add('disabled'); // Disable submit button
+                              // Check if all required fields have been filled in
+                              if (nameInput.checkValidity() && emailInput.checkValidity() && phoneInput.checkValidity() && messageInput.checkValidity()) {
+                                submitButton.classList.remove('disabled'); // Enable submit button
+                              } else {
+                                submitButton.classList.add('disabled'); // Disable submit button
+                              }
                             }
-                          } else {
-                            submitButton.classList.add('disabled'); // Disable submit button
-                          }
-                        }
                       
                         // Add event listener to form submit event
                         form.addEventListener('submit', (event) => {

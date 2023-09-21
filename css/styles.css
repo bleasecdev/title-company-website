@@ -54,8 +54,10 @@ btn{
 }
 
 #submitButton{
-  border-color: #D3AF3D;
+  background-color: #D3AF3D !important;
+  border: none;
   font-family: 'Luxia', sans-serif;
+  color: #101010;
 }
 
 .navbar {
@@ -367,6 +369,12 @@ transform: translateX(0);
 
 #about h2{
   color: #FFFFFF;
+}
+
+#about .btn{
+  background-color: #D3AF3D !important;
+  border: none;
+  color: #101010;
 }
 
 #contact {
