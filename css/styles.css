@@ -1,5 +1,6 @@
 body{
   overflow-x: hidden;
+  margin-bottom: 0px;
 }
 
 h1 {
@@ -367,25 +368,20 @@ transform: translateX(0);
   color: #D3AF3D;
 }
 
-.iframe-container {
-  display: flex;
-  justify-content: space-between;
-}
 
 .iframe-item {
   flex: 1;
   padding:10px;
 }
 
-@media (max-width: 768px) {
-  .iframe-item {
-    display: block;
-    margin-bottom: 20px;
-  }
-}
-
 
 .page-section p {
   margin-left: 100px;
   margin-right: 100px;
+}
+
+footer{
+  background-color: #a1a1a1;
+  padding-top:10px;
+  padding-bottom: 5px;
 }
