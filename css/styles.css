@@ -172,7 +172,7 @@ btn{
   
   @media (max-width: 767px) {
     .masthead {
-      overflow-x: hidden;
+      overflow: hidden;
     }
 }
 
