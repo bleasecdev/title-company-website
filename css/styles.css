@@ -319,6 +319,11 @@ btn{
   }
 }
 
+.wider-paragraph {
+  width: 100%; /* Adjust the desired maximum width */
+  margin: 0 auto;   /* Center-align the paragraph */
+}
+
 
 .scroll-slide-left, .scroll-slide-right {
     opacity: 0;
