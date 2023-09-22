@@ -190,7 +190,6 @@ btn{
 
 
 
-
 /* Default styles for the phone button */
 .phone-button {
     position: fixed;
@@ -321,7 +320,6 @@ btn{
 
 .wider-paragraph {
   width: 100%; /* Adjust the desired maximum width */
-  margin: 0 auto;   /* Center-align the paragraph */
 }
 
 
@@ -399,10 +397,7 @@ transform: translateX(0);
 }
 
 
-.page-section p {
-  margin-left: 100px;
-  margin-right: 100px;
-}
+
 
 footer{
   background-color: #a1a1a1;
