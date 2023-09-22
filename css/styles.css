@@ -413,3 +413,22 @@ footer{
   color: #FFFFFF;
   text-decoration: none;
 }
+
+/* Disable animations on screens with a maximum width of 768px (typical mobile size) */
+@media (max-width: 768px) {
+  .scroll-slide-left,
+  .scroll-slide-right {
+    opacity: 1;
+    transform: translateX(0);
+    transition: none; /* Remove any transition effects */
+  }
+}
+
+/* Disable animations for the masthead section on screens with a maximum width of 768px (typical mobile size) */
+@media (max-width: 768px) {
+  .masthead-content .slide-in-left,
+  .masthead-content .slide-in-right {
+    animation: none !important; /* Disable animations */
+  }
+}
+
