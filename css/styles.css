@@ -65,7 +65,7 @@ btn{
 }
 
 .navbar-brand img {
-  width: 300px;
+  width: 250px;
   height: auto;
 }
 
@@ -431,4 +431,12 @@ footer{
     animation: none !important; /* Disable animations */
   }
 }
+
+
+@media screen and (max-width: 280px) {
+  .navbar-brand img {
+    width: 150px; /* Adjust the width as needed */
+  }
+}
+
 
