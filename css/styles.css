@@ -432,7 +432,6 @@ footer{
   }
 }
 
-
 @media screen and (max-width: 280px) {
   .navbar-brand img {
     width: 150px; /* Adjust the width as needed */
